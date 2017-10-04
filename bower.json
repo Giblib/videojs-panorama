@@ -22,7 +22,7 @@
     "test",
     "tests",
     "assets",
-    "scripts"
+    "/scripts"
   ],
   "dependencies": {
     "three.js": "^0.75.0"
