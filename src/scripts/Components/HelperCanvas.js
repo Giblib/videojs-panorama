@@ -26,7 +26,7 @@ class HelperCanvas extends Component {
         /**
          * Get actual video dimension after video load.
          */
-        player.one("loadedmetadata", () => {
+        player.one("loadeddata", () => {
             this._width = this._videoElement.videoWidth;
             this._height = this._videoElement.videoHeight;
             this.updateDimention();
